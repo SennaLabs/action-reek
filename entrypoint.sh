@@ -15,4 +15,5 @@ reek
 reek --single-line ${INPUT_REEK_FLAGS}
   #| reviewdog -f=reek -name="${INPUT_TOOL_NAME}" -reporter="${INPUT_REPORTER}" -level="${INPUT_LEVEL}" -diff="git diff develop"
 pwd
+ls
 echo "hey reek,"
